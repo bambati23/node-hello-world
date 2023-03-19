@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: shresthaajay/node-hello-world-spring2024
+      IMAGE_NAME: bambati/node-hello-world
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
