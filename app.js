@@ -7,7 +7,7 @@ const port = 8080;
 const host = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('How is your day going? Congratulations on your Node Hello World Application built on Docker!');
+  res.send('Hey, This is updated in github');
 })
 
 app.listen(port, host);
